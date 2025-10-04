@@ -1,57 +1,57 @@
-let number = 12; // Assign any number here
+let number = 2; // Assign any number here
 
 if (number > 0) {
-  print(number); // Output for positive numbers
+  console.log("Positive number"); // Output for positive numbers
 } else if (number < 0) {
-  print(number); // Output for negative numbers
+  console.log("Negative number"); // Output for negative numbers
 } else {
-  print(0); // Output for zero
+  console.log("Zero"); // Output for zero
 }
-
-switch (day) {
+switch (5) {
   case 1:
-    print(Sunday); // Output Sunday
+    console.log("Sunday"); // Output Sunday
     break;
   case 2:
-    print(Monday);
+    console.log("Monday"); // Output Monday
     break;
   case 3:
-    print(Tuesday);
+    console.log("Tuesday"); // Output Tuesday
     break;
   case 4:
-    print(Wednesday);
+    console.log("Wednesday"); // Output Wednesday
     break;
   case 5:
-    print(Thursday);
+    console.log("Thursday"); // Output Thursday
     break;
   case 6:
-    print(Friday);
+    console.log("Friday"); // Output Friday
     break;
   case 7:
-    print(Saturday);
-    break; // Add more cases
+    console.log("Saturday"); // Output Saturday
+    break;
+  default:
+    console.log("Invalid day"); // Output Invalid day
 }
 
 for (let i = 1; i <= 5; i++) {
-  // Print i
+  console.log(i); // Print i
 }
 
 let i = 1;
 
 while (i <= 5) {
-  // Print i and increment
+  console.log(i, i++); // Print i and increment
 }
 
 let j = 1;
 
 do {
-  // Print j j++;
+  console.log(j, j++); // Print j j++;
 } while (j <= 5);
 
-if (i === 3) {
+if (i === 4) {
   // Use Break here
 }
-
 if (i === 3) {
   //Use continue here
 }
